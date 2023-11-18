@@ -8,7 +8,7 @@
     text-align: center;
 }
 .condiv-card{
-    width: 55%;
+    width: 60%;
     justify-content: center;
     background-color: grey;
     border-radius: 10px;
@@ -27,3 +27,26 @@
     font-size: 40px;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .condiv-card  {
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        
+      }
+    .condiv-card h1 {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  
+    .condiv-card h3 {
+      margin-top: 0;
+      font-size: 20px;
+      
+    }
+  
+  
+
+  
+  }
